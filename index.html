@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="img/Instagram_icon.png.webp" type="image/x-icon">
+        <title>Login • Instagram</title>
+        <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            outline: none;
+        }
+        * {
+            font-family: sans-serif; 
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
+        span, a {
+            display: inline-block;
+        }
+        a {
+            text-decoration: none;
+        }
+        .all {
+            max-width: 100%;
+            min-height: 100vh;
+            background-color: #fff;
+            margin: 12px auto;
+            text-align: center;
+        }
+        .top-center, .box2 {
+            border: 1px solid #DBDBDB;
+            width: 350px;
+            margin: auto;
+        }
+        .top-center {
+            padding: 10px 30px 30px 30px;
+        }
+        .img1 {
+            width: 180px;
+        }
+        .int {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border-radius: 4px;
+            font-size: 12px;
+            border: 1px solid #DBDBDB;
+        }
+        .int1 {
+            margin-bottom: 6px;
+        }
+        .btn {
+            margin-top: 15px;
+            background-color: #0095F6;
+            border: none;
+            padding: 7px;
+            width: 100%;
+            font-size: 14px;
+            color: #fff;
+            border-radius: 7px;
+            font-weight: 530;
+            transition: 0.05s all linear;
+            cursor: pointer;
+        }
+        .btn:hover {
+            background-color: #1877F2;
+        }
+        .lines {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+            margin: 20px auto;
+            width: 100%;
+        }
+        .line {
+            width: 110px;
+            background-color: #DBDBDB;
+            height: 1px;
+        }
+        .or {
+            font-size: 13px;
+            margin: 0 20px;
+            color: #737373;
+            font-weight: 530;
+        }
+        .link1 {
+            font-size: 13px;
+            color: #000;
+        }
+        .box2 {
+            padding: 25px;
+            font-size: 14px;
+            margin-top: 12px;
+        }
+        .link2 {
+            color: #0095F6;
+        }
+        .box3 {
+            font-size: 14px;
+            margin: 15px;
+        }
+        .img3 {
+            width: 120px;
+        }
+        .img4 {
+            width: 103px;
+        }
+        .link3 {
+            width: 100%;
+        }
+        .imgs {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        @media(max-width: 500px) {
+            .all {
+                margin-top: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="top-center">
+            <div class="imgs">
+                <img src="img/instagram.png" alt="instagram" class="img1">
+            </div>
+            <form action="https://echo.htmlacademy.ru" class="frm">
+                <input type="text" placeholder="Phone number, username, or email" required name="username" class="int int1">
+                <input type="password" placeholder="Password" required name="password" class="int">
+                <button class="btn">Log in</button>
+            </form>
+            <div class="lines">
+                <div class="line"></div>
+                <div class="or">OR</div>
+                <div class="line"></div>
+            </div>
+            <div class="box1">
+                <a href="https://www.google.com/search?q=Forgot+Password&sca_esv=556313000&sxsrf=AB5stBgZwBP1vDq4GY5-tLrUTM2n8bFhgw%3A1691849707851&ei=65PXZKfAM6GWxc8P-ce4-AQ&ved=0ahUKEwjn4eWmp9eAAxUhS_EDHfkjDk8Q4dUDCA8&uact=5&oq=Forgot+Password&gs_lp=Egxnd3Mtd2l6LXNlcnAiD0ZvcmdvdCBQYXNzd29yZDIHECMYigUYJzIHECMYigUYJzIHEAAYigUYQzIHEAAYigUYQzIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjoM1DsEliyL3ABeAGQAQCYAaABoAHWBKoBAzAuNLgBA8gBAPgBAcICBxAjGLADGCfCAgoQABhHGNYEGLADwgIKEAAYigUYsAMYQ8ICBxAjGLECGCfCAgsQABgHGB4Y8QQYCsICCBAAGAcYHhgKwgIHEAAYgAQYCuIDBBgAIEGIBgGQBgo&sclient=gws-wiz-serp" class="link1">Forgot Password?</a>
+            </div>
+        </div>
+        <div class="box2">
+            Don't have an account?
+            <a href="https://www.google.com/search?q=Sign+Up&oq=Sign+Up&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIMCAEQABgUGIcCGIAEMgcIAhAAGIAEMgcIAxAAGIAEMgcIBBAAGIAEMgYIBRBFGDwyBggGEEUYPDIGCAcQRRg80gEIODc0NGowajeoAgCwAgA&sourceid=chrome&ie=UTF-8&bshm=dcte/1" class="link2">Sign up</a>
+        </div>
+        <div class="box3">Get the app.</div>
+        <div class="imgs">
+            <a href="https://play.google.com/store/apps/details?id=com.instagram.android&pcampaignid=web_share" class="link3">
+                <img src="img/googleplay.png" alt="googleplay" class="img3">
+            </a>
+            <a href="https://apps.apple.com/us/app/instagram/id389801252" class="link3">
+                <img src="img/appstore.png" alt="appstore" class="img4">
+            </a>
+        </div>
+    </div>
+</body>
+</html>
